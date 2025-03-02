@@ -38,7 +38,7 @@ npm install -g newman
 │-- README.md  # Project documentation
 │-- package.json  # Newman dependencies (if applicable)``
 
-## 📤 API Endpoints Tested
+## 📤📤 API Endpoints Tested
 
 ### 1. Products
 
@@ -102,12 +102,12 @@ npm install -g newman
 
 ## GET /productsList
 
-### Request:
+### 📥Request:
 
 ``GET /productsList HTTP/1.1
 Host: {{base_url}}``
 
-### Response:
+### 📤Response:
 
 ``{
   "responseCode": 200,
@@ -129,14 +129,14 @@ Host: {{base_url}}``
 
 ## POST /searchProduct
 
-### Request:
+### 📥 Request:
 
 ``POST /searchProduct HTTP/1.1
 Host: {{base_url}}
 Content-Type: application/x-www-form-urlencoded
 search_product=jeans``
 
-### Response:
+### 📤 Response:
 
 ``{
   "responseCode": 200,
@@ -172,7 +172,7 @@ search_product=jeans``
 
 newman run AutomationExercise_API_Testing.postman_collection.json --reporters cli
 
-# Expected Results
+#  💞 Expected Results
 
 * All valid requests should return 200 OK.
 
@@ -180,13 +180,13 @@ newman run AutomationExercise_API_Testing.postman_collection.json --reporters cl
 
 * API response times should be under 1000ms.
 
-# Notes
+# 📝 Notes
 
 Ensure the API base URL is correctly set before running the tests.
 
 Some tests rely on valid user credentials, update them as needed.
 
-# License
+# 🪪 License
 
 This project is licensed under the MIT License.
 
