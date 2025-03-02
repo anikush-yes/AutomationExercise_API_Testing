@@ -32,6 +32,7 @@ npm install -g newman
 
 ``AutomationExercise_API_Testing/
 │-- collections/
+br
 │   ├── AutomationExercise_API_Testing.postman_collection.json  # Postman collection file
 │-- tests/
 │   ├── test_results/  # Folder to store test execution reports
