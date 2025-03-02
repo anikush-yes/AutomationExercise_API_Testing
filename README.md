@@ -182,9 +182,9 @@ newman run AutomationExercise_API_Testing.postman_collection.json --reporters cl
 
 # 📝 Notes
 
-Ensure the API base URL is correctly set before running the tests.
+* Ensure the API base URL is correctly set before running the tests.
 
-Some tests rely on valid user credentials, update them as needed.
+* Some tests rely on valid user credentials, update them as needed.
 
 # 🪪 License
 
