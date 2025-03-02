@@ -30,13 +30,13 @@ npm install -g newman
 
 ### 📂 Folder Structure
 
-AutomationExercise_API_Testing/
+``AutomationExercise_API_Testing/
 │-- collections/
 │   ├── AutomationExercise_API_Testing.postman_collection.json  # Postman collection file
 │-- tests/
 │   ├── test_results/  # Folder to store test execution reports
 │-- README.md  # Project documentation
-│-- package.json  # Newman dependencies (if applicable)
+│-- package.json  # Newman dependencies (if applicable)``
 
 ## 📤 API Endpoints Tested
 
@@ -88,15 +88,15 @@ AutomationExercise_API_Testing/
 
 # 🧪 Tests Included
 
-Status Code Validation: Ensures correct HTTP response codes are returned.
+* Status Code Validation: Ensures correct HTTP response codes are returned.
 
-Response Time Check: Confirms API responses are within acceptable time limits.
+* Response Time Check: Confirms API responses are within acceptable time limits.
 
-JSON Schema Validation: Verifies API responses match expected structures.
+* JSON Schema Validation: Verifies API responses match expected structures.
 
-Functional Testing: Ensures API operations work as expected.
+* Functional Testing: Ensures API operations work as expected.
 
-Error Handling Tests: Tests invalid requests and verifies proper error messages.
+* rror Handling Tests: Tests invalid requests and verifies proper error messages.
 
 Example Request & Response
 
