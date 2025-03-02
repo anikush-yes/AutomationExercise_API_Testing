@@ -38,7 +38,7 @@ npm install -g newman
 │-- README.md  # Project documentation
 │-- package.json  # Newman dependencies (if applicable)``
 
-## 📥📤 API Endpoints Tested
+# 📥📤 API Endpoints Tested
 
 ### 1. Products
 
