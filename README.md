@@ -96,7 +96,7 @@ npm install -g newman
 
 * Functional Testing: Ensures API operations work as expected.
 
-* rror Handling Tests: Tests invalid requests and verifies proper error messages.
+* Error Handling Tests: Tests invalid requests and verifies proper error messages.
 
 Example Request & Response
 
