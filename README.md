@@ -42,7 +42,7 @@ AutomationExercise_API_Testing/
 
 ### 1. Products
 
-** GET /productsList - Retrieve all products
+``GET /productsList`` - Retrieve all products
 
 POST /productsList - Verify invalid request handling
 
