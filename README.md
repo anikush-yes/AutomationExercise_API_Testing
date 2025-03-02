@@ -40,7 +40,7 @@ AutomationExercise_API_Testing/
 
 ## 📤 API Endpoints Tested
 
-1. Products
+### 1. Products
 
 ** GET /productsList - Retrieve all products
 
