@@ -98,7 +98,7 @@ npm install -g newman
 
 * Error Handling Tests: Tests invalid requests and verifies proper error messages.
 
-Example Request & Response
+## Example Request & Response
 
 GET /productsList
 
