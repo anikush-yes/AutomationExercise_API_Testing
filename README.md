@@ -127,7 +127,7 @@ Host: {{base_url}}``
   ]
 }``
 
-POST /searchProduct
+## POST /searchProduct
 
 ### Request:
 
