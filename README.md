@@ -4,31 +4,31 @@
 
 This project contains API test cases for AutomationExercise using Postman and Newman. The tests cover various functionalities such as retrieving product lists, searching for products, handling user authentication, and managing user accounts.
 
-### 🪛 Getting Started
+### 🏁 Getting Started
 
-Prerequisites
+#### 🔤 Prerequisites
 
-Install Postman
+* Install Postman
 
-Install Newman for CLI testing
+ * Install Newman for CLI testing
 
-Ensure API base URL is set correctly in Postman environment variables
+* Ensure API base URL is set correctly in Postman environment variables
 
-Installation
+### 🪛 Installation
 
-Clone this repository:
+* Clone this repository:
 
 git clone https://github.com/your-repo/AutomationExercise_API_Testing.git
 
-Navigate to the project folder:
+* Navigate to the project folder:
 
 cd AutomationExercise_API_Testing
 
-Install dependencies (if required for Newman execution):
+* Install dependencies (if required for Newman execution):
 
 npm install -g newman
 
-Folder Structure
+### 📂 Folder Structure
 
 AutomationExercise_API_Testing/
 │-- collections/
@@ -38,11 +38,11 @@ AutomationExercise_API_Testing/
 │-- README.md  # Project documentation
 │-- package.json  # Newman dependencies (if applicable)
 
-API Endpoints Tested
+## 📤 API Endpoints Tested
 
 1. Products
 
-GET /productsList - Retrieve all products
+** GET /productsList - Retrieve all products
 
 POST /productsList - Verify invalid request handling
 
