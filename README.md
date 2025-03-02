@@ -98,18 +98,18 @@ npm install -g newman
 
 * Error Handling Tests: Tests invalid requests and verifies proper error messages.
 
-## Example Request & Response
+# Example Request & Response
 
-GET /productsList
+## GET /productsList
 
-Request:
+### Request:
 
-GET /productsList HTTP/1.1
-Host: {{base_url}}
+``GET /productsList HTTP/1.1
+Host: {{base_url}}``
 
-Response:
+### Response:
 
-{
+``{
   "responseCode": 200,
   "products": [
     {
@@ -125,21 +125,21 @@ Response:
       }
     }
   ]
-}
+}``
 
 POST /searchProduct
 
-Request:
+### Request:
 
-POST /searchProduct HTTP/1.1
+``POST /searchProduct HTTP/1.1
 Host: {{base_url}}
 Content-Type: application/x-www-form-urlencoded
 
-search_product=jeans
+search_product=jeans``
 
-Response:
+### Response:
 
-{
+``{
   "responseCode": 200,
   "products": [
     {
@@ -155,7 +155,7 @@ Response:
       }
     }
   ]
-}
+}``
 
 Running the Tests
 
