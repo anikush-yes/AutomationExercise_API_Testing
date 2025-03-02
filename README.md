@@ -86,7 +86,7 @@ AutomationExercise_API_Testing/
 
 3. Retrieving non-existent user account
 
-Tests Included
+# 🧪 Tests Included
 
 Status Code Validation: Ensures correct HTTP response codes are returned.
 
