@@ -18,15 +18,15 @@ This project contains API test cases for AutomationExercise using Postman and Ne
 
 * Clone this repository:
 
-git clone https://github.com/your-repo/AutomationExercise_API_Testing.git
+``git clone https://github.com/your-repo/AutomationExercise_API_Testing.git``
 
 * Navigate to the project folder:
 
-cd AutomationExercise_API_Testing
+``cd AutomationExercise_API_Testing``
 
 * Install dependencies (if required for Newman execution):
 
-npm install -g newman
+``npm install -g newman``
 
 ### 📂 Folder Structure
 
