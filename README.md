@@ -38,7 +38,7 @@ npm install -g newman
 │-- README.md  # Project documentation
 │-- package.json  # Newman dependencies (if applicable)``
 
-## 📤📤 API Endpoints Tested
+## 📥📤 API Endpoints Tested
 
 ### 1. Products
 
@@ -98,7 +98,7 @@ npm install -g newman
 
 * Error Handling Tests: Tests invalid requests and verifies proper error messages.
 
-# Example Request & Response
+# 📥📤 Example Request & Response
 
 ## GET /productsList
 
