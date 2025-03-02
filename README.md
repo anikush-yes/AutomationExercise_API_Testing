@@ -134,7 +134,6 @@ Host: {{base_url}}``
 ``POST /searchProduct HTTP/1.1
 Host: {{base_url}}
 Content-Type: application/x-www-form-urlencoded
-
 search_product=jeans``
 
 ### Response:
