@@ -46,19 +46,19 @@ AutomationExercise_API_Testing/
 
 ``POST /productsList`` - Verify invalid request handling
 
-2. Brands
+### 2. Brands
 
 ``GET /brandsList`` - Retrieve all brands
 
 ``PUT /brandsList`` - Verify method not supported
 
-3. Search
+### 3. Search
 
 ``POST /searchProduct`` - Search for products
 
 ``POST /searchProduct`` (without parameter) - Verify bad request handling
 
-4. User Authentication
+### 4. User Authentication
 
 ``POST /verifyLogin`` - Verify login with valid credentials
 
@@ -68,7 +68,7 @@ AutomationExercise_API_Testing/
 
 ``DELETE /verifyLogin`` - Verify unsupported method handling
 
-5. User Account Management
+### 5. User Account Management
 
 ``POST /createAccount`` - Create a new user
 
@@ -78,7 +78,7 @@ AutomationExercise_API_Testing/
 
 ``DELETE /deleteAccount`` - Delete user account
 
-6. Negative Path Testing
+### 6. Negative Path Testing
 
 Invalid product search
 
