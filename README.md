@@ -156,37 +156,37 @@ search_product=jeans``
   ]
 }``
 
-Running the Tests
+# 🏃‍♀️‍➡️ Running the Tests
 
-Using Postman
+* Using Postman
 
-Import the AutomationExercise_API_Testing.postman_collection.json into Postman.
+* Import the AutomationExercise_API_Testing.postman_collection.json into Postman.
 
-Set the base_url environment variable.
+* Set the base_url environment variable.
 
-Run the collection manually.
+* Run the collection manually.
 
-Using Newman (CLI)
+* Using Newman (CLI)
 
-To run the tests from the command line:
+*To run the tests from the command line:
 
 newman run AutomationExercise_API_Testing.postman_collection.json --reporters cli
 
-Expected Results
+# Expected Results
 
-All valid requests should return 200 OK.
+* All valid requests should return 200 OK.
 
-Invalid requests should return proper error messages (400/404/405).
+* Invalid requests should return proper error messages (400/404/405).
 
-API response times should be under 1000ms.
+* API response times should be under 1000ms.
 
-Notes
+# Notes
 
 Ensure the API base URL is correctly set before running the tests.
 
 Some tests rely on valid user credentials, update them as needed.
 
-License
+# License
 
 This project is licensed under the MIT License.
 
