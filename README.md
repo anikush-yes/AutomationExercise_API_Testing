@@ -168,7 +168,7 @@ search_product=jeans``
 
 * Using Newman (CLI)
 
-*To run the tests from the command line:
+* To run the tests from the command line:
 
 newman run AutomationExercise_API_Testing.postman_collection.json --reporters cli
 
