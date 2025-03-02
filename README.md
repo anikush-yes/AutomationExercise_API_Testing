@@ -1,10 +1,10 @@
 # 🚀 AutomationExercise API Testing
 
-Overview
+## 👓 Overview
 
 This project contains API test cases for AutomationExercise using Postman and Newman. The tests cover various functionalities such as retrieving product lists, searching for products, handling user authentication, and managing user accounts.
 
-Getting Started
+### 🪛 Getting Started
 
 Prerequisites
 
