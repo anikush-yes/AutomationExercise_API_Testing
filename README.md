@@ -80,11 +80,11 @@ AutomationExercise_API_Testing/
 
 ### 6. Negative Path Testing
 
-Invalid product search
+1. Invalid product search
 
-Account creation without required fields
+2. Account creation without required fields
 
-Retrieving non-existent user account
+3. Retrieving non-existent user account
 
 Tests Included
 
