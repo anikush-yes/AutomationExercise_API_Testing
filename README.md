@@ -30,14 +30,13 @@ npm install -g newman
 
 ### 📂 Folder Structure
 
-``AutomationExercise_API_Testing/
-│-- collections/
-br
-│   ├── AutomationExercise_API_Testing.postman_collection.json  # Postman collection file
-│-- tests/
-│   ├── test_results/  # Folder to store test execution reports
-│-- README.md  # Project documentation
-│-- package.json  # Newman dependencies (if applicable)``
+- **AutomationExercise_API_Testing/**
+  - 📂 **collections/**
+    - 📄 `AutomationExercise_API_Testing.postman_collection.json` *(Postman collection file)*
+  - 📂 **tests/**
+    - 📂 **test_results/** *(Folder to store test execution reports)*
+  - 📄 `README.md` *(Project documentation)*
+  - 📄 `package.json` *(Newman dependencies, if applicable)*
 
 # 📥📤 API Endpoints Tested
 
