@@ -18,7 +18,7 @@ This project contains API test cases for AutomationExercise using Postman and Ne
 
 * Clone this repository:
 
-``git clone https://github.com/your-repo/AutomationExercise_API_Testing.git``
+``git clone https://github.com/anikush-yes/AutomationExercise_API_Testing.git``
 
 * Navigate to the project folder:
 
