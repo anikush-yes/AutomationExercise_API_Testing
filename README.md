@@ -2,7 +2,7 @@
 
 ## 👓 Overview
 
-This project contains API test cases for AutomationExercise using Postman and Newman. The tests cover various functionalities such as retrieving product lists, searching for products, handling user authentication, and managing user accounts.
+This project contains API test cases for [Automation Exercise](https://automationexercise.com/) website using Postman and Newman. The tests cover various functionalities such as retrieving product lists, searching for products, handling user authentication, and managing user accounts.
 
 ### 🏁 Getting Started
 
