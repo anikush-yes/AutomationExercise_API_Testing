@@ -192,5 +192,5 @@ newman run AutomationExercise_API_Testing.postman_collection.json --reporters cl
 
 This project is licensed under the MIT License.
 
-⭐ If you like this project, don't forget to give it a star! ⭐
+***⭐ If you like this project, don't forget to give it a star! ⭐***
 
