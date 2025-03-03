@@ -1,6 +1,6 @@
 # 🚀 AutomationExercise API Testing
-[![Postman](https://img.shields.io/badge/tested%20with-Postman-orange.svg)](https://www.postman.com/)  
-[![API Tests](https://img.shields.io/badge/API%20Tests-14%20passing-brightgreen.svg)]
+[![Postman](https://img.shields.io/badge/Tested%20with-Postman-orange.svg)](https://www.postman.com/)  
+[![API Tests](https://img.shields.io/badge/API%20Tests-14%20passing-brightgreen.svg)]()
 
 ## 👓 Overview
 
