@@ -1,8 +1,10 @@
 # 🚀 AutomationExercise API Testing
+[![Postman](https://img.shields.io/badge/Tested%20with-Postman-orange.svg)](https://www.postman.com/)
+[![API Tests](https://img.shields.io/badge/API%20Tests-14%20passing-brightgreen.svg)]()
 
 ## 👓 Overview
 
-This project contains API test cases for AutomationExercise using Postman and Newman. The tests cover various functionalities such as retrieving product lists, searching for products, handling user authentication, and managing user accounts.
+This project contains a Postman collection for testing the API endpoints provided by [Automation Exercise](https://automationexercise.com/) using Postman and Newman. The tests cover various functionalities such as retrieving product lists, searching for products, handling user authentication, and managing user accounts.
 
 ### 🏁 Getting Started
 
@@ -18,7 +20,7 @@ This project contains API test cases for AutomationExercise using Postman and Ne
 
 * Clone this repository:
 
-``git clone https://github.com/your-repo/AutomationExercise_API_Testing.git``
+``git clone https://github.com/anikush-yes/AutomationExercise_API_Testing.git``
 
 * Navigate to the project folder:
 
@@ -190,5 +192,5 @@ newman run AutomationExercise_API_Testing.postman_collection.json --reporters cl
 
 This project is licensed under the MIT License.
 
-⭐ If you like this project, don't forget to give it a star! ⭐
+***⭐ If you like this project, don't forget to give it a star! ⭐***
 
