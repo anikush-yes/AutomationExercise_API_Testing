@@ -976,14 +976,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}getUserDetailByEmail?email=Newuserr@example.co",
+							"raw": "{{base_url}}getUserDetailByEmail?email=Newuserr@example.com",
 							"host": [
 								"{{base_url}}getUserDetailByEmail"
 							],
 							"query": [
 								{
 									"key": "email",
-									"value": "Newuserr@example.co"
+									"value": "Newuserr@example.com"
 								}
 							]
 						}
