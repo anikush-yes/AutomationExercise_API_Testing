@@ -26,3 +26,6 @@ jobs:
 
       - name: Running first collection
         run: newman run AutomationExercise_API_Testing.postman_collection.json
+
+      - name: Running second collection
+        run: newman run Dev_Environment.postman
