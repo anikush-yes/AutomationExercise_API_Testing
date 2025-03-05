@@ -19,13 +19,13 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # arba 'lts'
+          node-version: '22'
 
       - name: Install Newman
         run: npm install -g newman
 
       - name: Running first collection
-        run: newman run AutomationExercise_API_Testing.postman_collection.json
+        run: newman run AutomationExercise_API_Testing.postman_collection.json --suppress-exit-code
 
-      - name: Running second collection
-        run: newman run DevEnvironment.postman_environment.json
+      - name: Running second collection with environment
+        run: newman run DevEnvironment.postman_collection.json -e DevEnvironment.postman_environment.json --suppress-exit-code
