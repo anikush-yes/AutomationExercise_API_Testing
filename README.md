@@ -34,11 +34,10 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 - **AutomationExercise_API_Testing/**
   - 📂 **collections/**
-    - 📄 `AutomationExercise_API_Testing.postman_collection.json` *(Postman collection file)*
-  - 📂 **tests/**
-    - 📂 **test_results/** *(Folder to store test execution reports)*
+  - 📄 `AutomationExercise_API_Testing.postman_collection.json` *(Postman collection file)*
+  - 📄 `DevEnvironment.postman_environment.json` *(Newman dependencies, if applicable)*
   - 📄 `README.md` *(Project documentation)*
-  - 📄 `package.json` *(Newman dependencies, if applicable)*
+ 
 
 # 📥📤 API Endpoints Tested
 
