@@ -10,9 +10,9 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 #### 🔤 Prerequisites
 
- [Node.js](https://nodejs.org/en)
-* Postman
-* Newman for API CI testing
+[![Node.js](https://nodejs.org/en)
+[![Postman](https://www.postman.com)
+[![Newman](https://github.com/postmanlabs/newman)
 
 ### 🪛 Installation
 
