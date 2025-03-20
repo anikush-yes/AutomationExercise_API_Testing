@@ -6,6 +6,7 @@
 
 This project focuses on testing the API of https://automationexercise.com/, an online platform for practicing API automation testing. Created an automated Postman test collection, tested it manually in **Postman**, and integrated **Newman** with **GitHub Actions** to execute the tests in **CI pipeline**, ensuring continuous API quality and reliability.
 
+
 ### 🏁 Getting Started
 
 #### 🔤 Prerequisites
@@ -13,6 +14,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 [![Node.js](https://img.shields.io/badge/Node.js-14.x-green)](https://nodejs.org/en)
 [![Postman](https://img.shields.io/badge/Tested%20with-Postman-orange)](https://www.postman.com)
 [![Newman](https://img.shields.io/badge/Newman-6.2.1-blue)](https://github.com/postmanlabs/newman)
+
 
 ### 🪛 Installation
 
@@ -28,6 +30,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 ``npm install -g newman``
 
+
 ### 📂 Folder Structure
 
 
@@ -38,6 +41,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
  ┣ 📄 DevEnvironment.postman_environment.json                  *Postman environment file*
  
  ┗ 📄 README.md                                                *Project documentation*
+
 
  
   # 🏃‍♀️‍➡️ Running API Tests
@@ -58,6 +62,10 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 ``npm test``
 
+## 3.Using GitHub Actions
+
+* Manually trigger it from the GitHub Actions tab via "Run workflow"
+
 
 #  💞 Expected Results
 
@@ -66,8 +74,10 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 * Invalid requests should return proper error messages (400/404/405).
 
 * API response times should be under 1000ms.
+* 
 
 # 📥📤 API Endpoints Tested
+
 
 ### 1. Products
 
@@ -117,6 +127,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 
 # 📥📤 Example Request & Response
+
 
 ## GET /productsList
 
@@ -176,13 +187,16 @@ search_product=jeans``
 
 # 📝 Notes
 
+
 * Ensure the API base URL is correctly set before running the tests.
 
 * Some tests rely on valid user credentials, update them as needed.
+* 
 
 # 🪪 License
 
 This project is licensed under the MIT License.
+
 
 ***⭐ If you like this project, don't forget to give it a star! ⭐***
 
