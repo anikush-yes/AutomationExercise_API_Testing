@@ -28,4 +28,4 @@ jobs:
         run: newman run AutomationExercise_API_Testing.postman_collection.json --suppress-exit-code
 
       - name: Running second collection with environment
-        run: newman run DevEnvironment.postman_collection.json -e DevEnvironment.postman_environment.json --suppress-exit-code
+        run: newman run DevEnvironment.postman_collection.json -e NewEnvironment.postman_environment.json --suppress-exit-code
