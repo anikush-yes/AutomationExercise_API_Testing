@@ -4,7 +4,7 @@
 
 ## 👓 Overview
 
-This project contains a Postman collection for testing the API endpoints provided by [Automation Exercise](https://automationexercise.com/) using Postman and Newman. The tests cover various functionalities such as retrieving product lists, searching for products, handling user authentication, and managing user accounts.
+This project focuses on testing the API of https://automationexercise.com/, an online platform for practicing API automation testing. Created an automated Postman test collection, tested it manually in Postman, and integrated Newman with GitHub Actions to execute the tests in CI pipelines, ensuring continuous API quality and reliability.
 
 ### 🏁 Getting Started
 
@@ -12,7 +12,7 @@ This project contains a Postman collection for testing the API endpoints provide
 
 * Install Postman
 
- * Install Newman for CLI testing
+* Install Newman for CLI testing
 
 * Ensure API base URL is set correctly in Postman environment variables
 
