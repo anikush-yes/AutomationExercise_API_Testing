@@ -73,7 +73,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 * Invalid requests should return proper error messages (400/404/405).
 
 * API response times should be under 1000ms.
-* 
+ 
 ***
 # 📥📤 API Endpoints Tested
 
@@ -190,7 +190,7 @@ search_product=jeans``
 * Ensure the API base URL is correctly set before running the tests.
 
 * Some tests rely on valid user credentials, update them as needed.
-* 
+  
 ***
 # 🪪 License
 
