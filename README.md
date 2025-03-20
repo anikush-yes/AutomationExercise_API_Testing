@@ -30,8 +30,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 ### 📂 Folder Structure
 
-- **AutomationExercise_API_Testing/**
-  - 📂 **collections/**
+  - 📂 **AutomationExercise_API_Testing/**
   - 📄 `AutomationExercise_API_Testing.postman_collection.json` *(Postman collection file)*
   - 📄 `DevEnvironment.postman_environment.json` *(Created environment in Postman)*
   - 📄 `README.md` *(Project documentation)*
