@@ -1,0 +1,12 @@
+{
+  "name": "automationexercise_api_testing",
+  "version": "1.0.0",
+  "description": "[![Postman](https://img.shields.io/badge/Tested%20with-Postman-orange.svg)](https://www.postman.com/)\r [![API Tests](https://img.shields.io/badge/API%20Tests-14%20passing-brightgreen.svg)]()",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
