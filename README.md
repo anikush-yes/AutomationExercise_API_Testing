@@ -54,7 +54,6 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 * **Set** API base URL **https://automationexercise.com/api/** in Postman environment variables
 
 * **Run** the collection manually
-* 
 
 ## 2.Using Newman 
 
