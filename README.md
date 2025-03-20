@@ -14,7 +14,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 * Install Newman for CLI testing
 
-* Ensure API base URL is set correctly in Postman environment variables
+* Ensure API base URL **https://automationexercise.com/api/** is set correctly in Postman environment variables
 
 ### 🪛 Installation
 
