@@ -1,7 +1,7 @@
 # 🚀 API Testing using Postman and Newman
 [![Postman](https://img.shields.io/badge/Tested%20with-Postman-orange.svg)](https://www.postman.com/)
 [![API Tests](https://img.shields.io/badge/API%20Tests-14%20passing-brightgreen.svg)]()
-
+______________________________________________________________________________________________________________________________________________
 ## 👓 Overview
 
 This project focuses on testing the API of https://automationexercise.com/, an online platform for practicing API automation testing. Created an automated Postman test collection, tested it manually in **Postman**, and integrated **Newman** with **GitHub Actions** to execute the tests in **CI pipeline**, ensuring continuous API quality and reliability.
