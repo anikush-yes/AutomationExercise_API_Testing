@@ -24,7 +24,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 * Navigate to the project folder:
 
-``cd AutomationExercise_API_Testing``
+``cd AutomationExercise_API_Testing`` (Or the name You gave)
 
 * Install dependencies (if required for Newman execution):
 
@@ -64,7 +64,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 ## 3.Using GitHub Actions
 
-* Manually trigger it from the GitHub Actions tab via "Run workflow"
+* Manually trigger it from the **GitHub Actions** tab via **"Run workflow"**
 
 
 #  💞 Expected Results
