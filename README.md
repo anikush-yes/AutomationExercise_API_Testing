@@ -10,9 +10,9 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 #### 🔤 Prerequisites
 
-[![Node.js](https://nodejs.org/en)
-[![Postman](https://www.postman.com)
-[![Newman](https://github.com/postmanlabs/newman)
+[![Node.js](https://img.shields.io/badge/Node.js-14.x-green)](https://nodejs.org/en)
+[![Postman](https://img.shields.io/badge/Tested%20with-Postman-orange)](https://www.postman.com)
+[![Newman](https://img.shields.io/badge/Newman-6.2.1-blue)](https://github.com/postmanlabs/newman)
 
 ### 🪛 Installation
 
