@@ -30,30 +30,34 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 ### 📂 Folder Structure
 
+
   📁 AutomationExercise_API_Testing
   
- ┣ 📄 AutomationExercise_API_Testing.postman_collection.json    # Postman collection file 
+ ┣ 📄 AutomationExercise_API_Testing.postman_collection.json   *Postman collection file*
  
- ┣ 📄 DevEnvironment.postman_environment.json                  # Postman environment file
+ ┣ 📄 DevEnvironment.postman_environment.json                  *Postman environment file*
  
- ┗ 📄 README.md                                                # Project documentation
+ ┗ 📄 README.md                                                *Project documentation*
 
  
   # 🏃‍♀️‍➡️ Running API Tests
+  
 
  ## 1.Using Postman
 
-* **Import** the AutomationExercise_API_Testing.postman_collection.json into Postman.
+* **Import** the AutomationExercise_API_Testing.postman_collection.json into Postman
 
 * **Set** API base URL **https://automationexercise.com/api/** in Postman environment variables
 
-* **Run** the collection manually.
+* **Run** the collection manually
+* 
 
-## Using Newman (CI)
+## 2.Using Newman 
 
 * To run the tests from the command line, use the following command:
 
-``newman run AutomationExercise_API_Testing.postman_collection.json --reporters cli``
+``npm test``
+
 
 #  💞 Expected Results
 
