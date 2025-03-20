@@ -32,7 +32,9 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
   📁 AutomationExercise_API_Testing
  ┣ 📄 AutomationExercise_API_Testing.postman_collection.json   # Postman collection file
+ 
  ┣ 📄 DevEnvironment.postman_environment.json                  # Postman environment file
+ 
  ┗ 📄 README.md                                                # Project documentation
 
  
