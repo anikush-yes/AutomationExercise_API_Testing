@@ -4,17 +4,15 @@
 
 ## 👓 Overview
 
-This project focuses on testing the API of https://automationexercise.com/, an online platform for practicing API automation testing. Created an automated Postman test collection, tested it manually in Postman, and integrated Newman with GitHub Actions to execute the tests in CI pipelines, ensuring continuous API quality and reliability.
+This project focuses on testing the API of https://automationexercise.com/, an online platform for practicing API automation testing. Created an automated Postman test collection, tested it manually in **Postman**, and integrated **Newman** with **GitHub Actions** to execute the tests in **CI pipeline**, ensuring continuous API quality and reliability.
 
 ### 🏁 Getting Started
 
 #### 🔤 Prerequisites
 
-* Install Postman
+* Postman
 
-* Install Newman for CLI testing
-
-* Ensure API base URL **https://automationexercise.com/api/** is set correctly in Postman environment variables
+* Newman for API CI testing
 
 ### 🪛 Installation
 
@@ -35,9 +33,38 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 - **AutomationExercise_API_Testing/**
   - 📂 **collections/**
   - 📄 `AutomationExercise_API_Testing.postman_collection.json` *(Postman collection file)*
-  - 📄 `DevEnvironment.postman_environment.json` *(Newman dependencies, if applicable)*
+  - 📄 `DevEnvironment.postman_environment.json` *(Created environment in Postman)*
   - 📄 `README.md` *(Project documentation)*
  
+  # 🏃‍♀️‍➡️ Running API Tests
+
+ ## 1.Using Postman
+
+* **Import** the AutomationExercise_API_Testing.postman_collection.json into Postman.
+
+* **Set** API base URL **https://automationexercise.com/api/** in Postman environment variables
+
+* **Run** the collection manually.
+
+## Using Newman (CI)
+
+* To run the tests from the command line:
+
+newman run AutomationExercise_API_Testing.postman_collection.json --reporters cli
+
+#  💞 Expected Results
+
+* All valid requests should return 200 OK.
+
+* Invalid requests should return proper error messages (400/404/405).
+
+* API response times should be under 1000ms.
+
+# 📝 Notes
+
+* Ensure the API base URL is correctly set before running the tests.
+
+* Some tests rely on valid user credentials, update them as needed.
 
 # 📥📤 API Endpoints Tested
 
@@ -87,17 +114,6 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 3. Retrieving non-existent user account
 
-# 🧪 Tests Included
-
-* Status Code Validation: Ensures correct HTTP response codes are returned.
-
-* Response Time Check: Confirms API responses are within acceptable time limits.
-
-* JSON Schema Validation: Verifies API responses match expected structures.
-
-* Functional Testing: Ensures API operations work as expected.
-
-* Error Handling Tests: Tests invalid requests and verifies proper error messages.
 
 # 📥📤 Example Request & Response
 
@@ -156,30 +172,6 @@ search_product=jeans``
     }
   ]
 }``
-
-# 🏃‍♀️‍➡️ Running the Tests
-
-* Using Postman
-
-* Import the AutomationExercise_API_Testing.postman_collection.json into Postman.
-
-* Set the base_url environment variable.
-
-* Run the collection manually.
-
-* Using Newman (CLI)
-
-* To run the tests from the command line:
-
-newman run AutomationExercise_API_Testing.postman_collection.json --reporters cli
-
-#  💞 Expected Results
-
-* All valid requests should return 200 OK.
-
-* Invalid requests should return proper error messages (400/404/405).
-
-* API response times should be under 1000ms.
 
 # 📝 Notes
 
