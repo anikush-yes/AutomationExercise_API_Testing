@@ -29,7 +29,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 * Install dependencies (if required for Newman execution):
 
 ``npm install -g newman``
-
+***
 
 ### 📂 Folder Structure
 
@@ -42,7 +42,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
  
  ┗ 📄 README.md                                                *Project documentation*
 
-
+***
  
   # 🏃‍♀️‍➡️ Running API Tests
   
@@ -66,7 +66,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 * Manually trigger it from the **GitHub Actions** tab via **"Run workflow"**
 
-
+***
 #  💞 Expected Results
 
 * All valid requests should return 200 OK.
@@ -75,7 +75,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 * API response times should be under 1000ms.
 * 
-
+***
 # 📥📤 API Endpoints Tested
 
 
@@ -125,7 +125,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 3. Retrieving non-existent user account
 
-
+***
 # 📥📤 Example Request & Response
 
 
@@ -184,7 +184,7 @@ search_product=jeans``
     }
   ]
 }``
-
+***
 # 📝 Notes
 
 
@@ -192,11 +192,11 @@ search_product=jeans``
 
 * Some tests rely on valid user credentials, update them as needed.
 * 
-
+***
 # 🪪 License
 
 This project is licensed under the MIT License.
-
+***
 
 ***⭐ If you like this project, don't forget to give it a star! ⭐***
 
