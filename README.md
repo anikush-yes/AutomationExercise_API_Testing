@@ -7,7 +7,7 @@ ________________________________________________________________________________
 This project focuses on testing the API of https://automationexercise.com/, an online platform for practicing API testing. Created a Postman test collection, tested it manually in **Postman**, and integrated **Newman** with **GitHub Actions** to execute the tests in **CI pipeline**, ensuring continuous API quality and reliability.
 ***
 
-### 🏁 Getting Started
+## 🏁 Getting Started
 
 ### 🔤 Prerequisites
 
@@ -36,6 +36,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
   📁 AutomationExercise_API_Testing
   
+  
  ┣ 📄 AutomationExercise_API_Testing.postman_collection.json   *Postman collection file*
  
  ┣ 📄 DevEnvironment.postman_environment.json                  *Postman environment file*
@@ -44,10 +45,10 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 ***
  
-### 🏃‍♀️‍➡️ Running API Tests
+## 🏃‍♀️‍➡️ Running API Tests
   
 
- ## 1.Using Postman
+ ### 1.Using Postman
 
 * **Import** the AutomationExercise_API_Testing.postman_collection.json into Postman
 
@@ -55,18 +56,18 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 * **Run** the collection manually
 
-## 2.Using Newman 
+### 2.Using Newman 
 
 * To run the tests from the command line, use the following command:
 
 ``npm test``
 
-## 3.Using GitHub Actions
+### 3.Using GitHub Actions
 
 * Manually trigger it from the **GitHub Actions** tab via **"Run workflow"**
 
 ***
-#  💞 Expected Results
+##  💞 Expected Results
 
 * All valid requests should return 200 OK.
 
@@ -75,7 +76,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 * API response times should be under 1000ms.
  
 ***
-# 📥📤 API Endpoints Tested
+## 📥📤 API Endpoints Tested
 
 
 ### 1. Products
