@@ -9,7 +9,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 ### 🏁 Getting Started
 
-#### 🔤 Prerequisites
+### 🔤 Prerequisites
 
 [![Node.js](https://img.shields.io/badge/Node.js-14.x-green)](https://nodejs.org/en)
 [![Postman](https://img.shields.io/badge/Tested%20with-Postman-orange)](https://www.postman.com)
@@ -44,7 +44,7 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 
 ***
  
-  # 🏃‍♀️‍➡️ Running API Tests
+### 🏃‍♀️‍➡️ Running API Tests
   
 
  ## 1.Using Postman
