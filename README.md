@@ -4,7 +4,7 @@
 ______________________________________________________________________________________________________________________________________________
 ## 👓 Overview
 
-This project focuses on testing the API of https://automationexercise.com/, an online platform for practicing API automation testing. Created an automated Postman test collection, tested it manually in **Postman**, and integrated **Newman** with **GitHub Actions** to execute the tests in **CI pipeline**, ensuring continuous API quality and reliability.
+This project focuses on testing the API of https://automationexercise.com/, an online platform for practicing API testing. Created a Postman test collection, tested it manually in **Postman**, and integrated **Newman** with **GitHub Actions** to execute the tests in **CI pipeline**, ensuring continuous API quality and reliability.
 ***
 
 ### 🏁 Getting Started
