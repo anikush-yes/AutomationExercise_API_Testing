@@ -8,7 +8,6 @@ This project focuses on testing the API of https://automationexercise.com/, an o
 ***
 
 ## 🏁 Getting Started
-***
 
 ### 🔤 Prerequisites
 
